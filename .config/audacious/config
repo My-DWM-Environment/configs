@@ -1,0 +1,77 @@
+
+[alsa]
+mixer-element=Master
+
+[audacious]
+chardet_detector=russian
+default_gain=-0
+generic_title_format=- ${?artist:${artist} - }${?album:${album} - }${title}
+output_bit_depth=0
+output_buffer_size=5000
+repeat=TRUE
+replay_gain_preamp=-0
+soft_clipping=TRUE
+
+[audgui]
+about_win=0,315,582,367
+filebrowser_win=0,21,958,1057
+filesel_path=/run/media/ruut/99c9b836-a7b8-403c-9ef8-5bfc1e1ec831/Music/Руское
+info_win=93,138,676,390
+no_confirm_playlist_delete=TRUE
+queue_manager_win=169,159,473,246
+url_opener_win=0,0,384,137
+
+[gtkui]
+autoscroll=FALSE
+close_button_visible=FALSE
+column_widths=10,334,138,10,365,175,10,100,32,167,275,275,275,25,275
+infoarea_visible=FALSE
+player_height=875
+player_width=861
+player_x=-1730
+player_y=21
+playlist_columns=title album length
+statusbar_visible=FALSE
+
+[gtkui-layout]
+item0_name=Списки воспроизведения
+item0_pos=-1,0,0,276,373
+item1_name=Анализатор спектра
+item1_pos=-1,0,0,284,188
+item2_name=OpenGL Спектральный Анализатор
+item2_pos=-1,77,14,546,399
+item3_name=Размывающийся уровень
+item3_pos=-1,0,0,284,188
+item4_name=Обложка альбома
+item4_pos=-1,0,0,284,188
+item5_name=Поиск
+item5_pos=0,-1,-1,194,679
+item6_name=Search Tool
+item6_pos=0,-1,-1,202,963
+item7_name=Album Art
+item7_pos=-1,1281,1,634,1074
+item_count=8
+
+[history]
+entry0=https://music.yandex.ru/artist/4442969/tracks
+
+[qtui]
+player_height=351
+player_width=958
+
+[skins]
+equalizer_x=192
+equalizer_y=133
+mainwin_font=Sans Bold 10
+player_x=1091
+player_y=18
+playlist_font=Sans Bold 10
+playlist_visible=TRUE
+playlist_x=1091
+playlist_y=134
+skin=/usr/share/audacious/Skins/Default
+
+[skins-layout]
+blur_scope=1078,18,288,192
+cairo-spectrum=1078,18,288,192
+gl-spectrum=1078,18,288,192

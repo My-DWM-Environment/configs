@@ -1,0 +1,171 @@
+[global_config]
+  inactive_color_offset = 0.6464366666662196
+  suppress_multiple_term_dialog = True
+  title_use_system_font = False
+  title_font = mononoki 16
+  case_sensitive = False
+[keybindings]
+  cycle_next = ""
+  cycle_prev = ""
+  next_tab = <Primary>Tab
+  prev_tab = <Primary><Shift>Tab
+  switch_to_tab_1 = <Alt>1
+  switch_to_tab_2 = <Alt>2
+  switch_to_tab_3 = <Alt>3
+  switch_to_tab_4 = <Alt>4
+  switch_to_tab_5 = <Alt>5
+  switch_to_tab_6 = <Alt>6
+  switch_to_tab_7 = <Alt>7
+  switch_to_tab_8 = <Alt>8
+  switch_to_tab_9 = <Alt>9
+  switch_to_tab_10 = <Alt>0
+[profiles]
+  [[default]]
+    background_darkness = 0.99
+    cursor_color = "#aaaaaa"
+    font = Source Code Pro 16
+    show_titlebar = False
+    scrollback_lines = 10000
+    palette = "#2e3436:#e27f7f:#33d17a:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#f66151:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    use_system_font = False
+    use_theme_colors = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+  [[tabbed]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 0:815
+      maximised = False
+      fullscreen = False
+      size = 1916, 261
+      title = ruut@ruut: ~
+      last_active_term = c5543660-e99f-4d68-8975-6f7e3a83d710
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = default
+      uuid = c5543660-e99f-4d68-8975-6f7e3a83d710
+      command = watch_swaps.sh
+      directory = ~
+    [[[child2]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 0:815
+      maximised = False
+      fullscreen = False
+      size = 1916, 261
+      title = ruut@ruut: ~
+      last_active_term = e20c8f75-a6c1-4a39-a3ff-04b80c7252a1
+      last_active_window = True
+    [[[terminal3]]]
+      type = Terminal
+      parent = child2
+      order = 0
+      profile = default
+      uuid = e20c8f75-a6c1-4a39-a3ff-04b80c7252a1
+      command = watch_disks.sh
+      directory = ~
+    [[[child4]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = -3840:21
+      maximised = False
+      fullscreen = False
+      size = 1916, 790
+      title = ruut@ruut: ~
+      last_active_window = False
+    [[[child5]]]
+      type = Notebook
+      parent = child4
+      order = 0
+      labels = None, None, None, None, None, None, None, None, None, meet, yay, VPN
+      last_active_term = 46fe45a4-3f2b-45ee-bb39-0ad284a415ec, 83242ac7-ce07-4f88-b65d-79cf26928c08, 73052b2f-1ce2-4481-a606-c9552f5eb689, 513d0e4a-8d37-4d8b-9f64-9b854446eb52, 1de0333a-f71e-4a2e-ad6a-62ef9d34b761, b76a1072-2a4f-4cb9-bd05-eb879b07ba49, af7aa35c-82da-488c-87fd-37d0f199c954, 7b3a1a6d-d8c9-4e48-9da7-67075d815c72, 6f4e83cc-cae0-423b-be4d-f901e0dbf731, 41e800c6-5240-4452-83a3-355d236cc21c, 5d0f2525-b9a9-4b65-af1b-5113a77fe48c, d77cc867-dfb1-4feb-9afb-5ecc8e66553c
+      active_page = 11
+    [[[terminal6]]]
+      type = Terminal
+      parent = child5
+      order = 0
+      profile = default
+      uuid = 46fe45a4-3f2b-45ee-bb39-0ad284a415ec
+    [[[terminal7]]]
+      type = Terminal
+      parent = child5
+      order = 1
+      profile = default
+      uuid = 83242ac7-ce07-4f88-b65d-79cf26928c08
+    [[[terminal8]]]
+      type = Terminal
+      parent = child5
+      order = 2
+      profile = default
+      uuid = 73052b2f-1ce2-4481-a606-c9552f5eb689
+    [[[terminal9]]]
+      type = Terminal
+      parent = child5
+      order = 3
+      profile = default
+      uuid = 513d0e4a-8d37-4d8b-9f64-9b854446eb52
+    [[[terminal10]]]
+      type = Terminal
+      parent = child5
+      order = 4
+      profile = default
+      uuid = 1de0333a-f71e-4a2e-ad6a-62ef9d34b761
+    [[[terminal11]]]
+      type = Terminal
+      parent = child5
+      order = 5
+      profile = default
+      uuid = b76a1072-2a4f-4cb9-bd05-eb879b07ba49
+    [[[terminal12]]]
+      type = Terminal
+      parent = child5
+      order = 6
+      profile = default
+      uuid = af7aa35c-82da-488c-87fd-37d0f199c954
+    [[[terminal13]]]
+      type = Terminal
+      parent = child5
+      order = 7
+      profile = default
+      uuid = 7b3a1a6d-d8c9-4e48-9da7-67075d815c72
+    [[[terminal14]]]
+      type = Terminal
+      parent = child5
+      order = 8
+      profile = default
+      uuid = 6f4e83cc-cae0-423b-be4d-f901e0dbf731
+    [[[terminal15]]]
+      type = Terminal
+      parent = child5
+      order = 9
+      profile = default
+      uuid = 41e800c6-5240-4452-83a3-355d236cc21c
+    [[[terminal16]]]
+      type = Terminal
+      parent = child5
+      order = 10
+      profile = default
+      uuid = 5d0f2525-b9a9-4b65-af1b-5113a77fe48c
+    [[[terminal17]]]
+      type = Terminal
+      parent = child5
+      order = 11
+      profile = default
+      uuid = d77cc867-dfb1-4feb-9afb-5ecc8e66553c
+      command = ""
+      directory = ""
+[plugins]
