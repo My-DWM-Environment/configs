@@ -91,81 +91,95 @@
       type = Notebook
       parent = child4
       order = 0
-      labels = None, None, None, None, None, None, None, None, None, meet, yay, VPN
-      last_active_term = 46fe45a4-3f2b-45ee-bb39-0ad284a415ec, 83242ac7-ce07-4f88-b65d-79cf26928c08, 73052b2f-1ce2-4481-a606-c9552f5eb689, 513d0e4a-8d37-4d8b-9f64-9b854446eb52, 1de0333a-f71e-4a2e-ad6a-62ef9d34b761, b76a1072-2a4f-4cb9-bd05-eb879b07ba49, af7aa35c-82da-488c-87fd-37d0f199c954, 7b3a1a6d-d8c9-4e48-9da7-67075d815c72, 6f4e83cc-cae0-423b-be4d-f901e0dbf731, 41e800c6-5240-4452-83a3-355d236cc21c, 5d0f2525-b9a9-4b65-af1b-5113a77fe48c, d77cc867-dfb1-4feb-9afb-5ecc8e66553c
-      active_page = 11
+      labels = TaskBack, TaskFront, bsp-back, bsp-front, None, None, None, None, None, None, yay, VPN
     [[[terminal6]]]
       type = Terminal
       parent = child5
       order = 0
       profile = default
+      title = TaskBack
+      directory = /home/ruut/Projects/tasks-backend
       uuid = 46fe45a4-3f2b-45ee-bb39-0ad284a415ec
     [[[terminal7]]]
       type = Terminal
       parent = child5
       order = 1
       profile = default
+      title = TaskFront
+      directory = /home/ruut/Projects/tasks-frontend
       uuid = 83242ac7-ce07-4f88-b65d-79cf26928c08
     [[[terminal8]]]
       type = Terminal
       parent = child5
-      order = 2
+      order = 1
       profile = default
+      title = bsp-back
+      directory = /home/ruut/Projects/pss/bsp-back
       uuid = 73052b2f-1ce2-4481-a606-c9552f5eb689
     [[[terminal9]]]
       type = Terminal
       parent = child5
-      order = 3
+      order = 1
       profile = default
+      title = bsp-front
+      directory = /home/ruut/Projects/pss/bsp-frontend
       uuid = 513d0e4a-8d37-4d8b-9f64-9b854446eb52
     [[[terminal10]]]
       type = Terminal
       parent = child5
       order = 4
       profile = default
+      directory = ~
       uuid = 1de0333a-f71e-4a2e-ad6a-62ef9d34b761
     [[[terminal11]]]
       type = Terminal
       parent = child5
       order = 5
       profile = default
+      directory = ~
       uuid = b76a1072-2a4f-4cb9-bd05-eb879b07ba49
     [[[terminal12]]]
       type = Terminal
       parent = child5
       order = 6
       profile = default
+      directory = ~
       uuid = af7aa35c-82da-488c-87fd-37d0f199c954
     [[[terminal13]]]
       type = Terminal
       parent = child5
       order = 7
       profile = default
+      directory = ~
       uuid = 7b3a1a6d-d8c9-4e48-9da7-67075d815c72
     [[[terminal14]]]
       type = Terminal
       parent = child5
       order = 8
       profile = default
+      directory = ~
       uuid = 6f4e83cc-cae0-423b-be4d-f901e0dbf731
     [[[terminal15]]]
       type = Terminal
       parent = child5
       order = 9
       profile = default
+      directory = ~
       uuid = 41e800c6-5240-4452-83a3-355d236cc21c
     [[[terminal16]]]
       type = Terminal
       parent = child5
       order = 10
       profile = default
+      title = yay
+      directory = ~
       uuid = 5d0f2525-b9a9-4b65-af1b-5113a77fe48c
     [[[terminal17]]]
       type = Terminal
       parent = child5
       order = 11
       profile = default
+      title = VPN
       uuid = d77cc867-dfb1-4feb-9afb-5ecc8e66553c
-      command = ""
-      directory = ""
+      directory = ~
 [plugins]
